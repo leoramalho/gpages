@@ -3,12 +3,12 @@ body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
 	color: #FFF;
-	background: #8000FF;
+	background: #1d3557;
 }
 
 a {
 	color: #FFF;
-	font-weight: 600;
+	font-weight: 400;
 	text-decoration: none;
 	transition: color .5s ease;
 }
@@ -17,7 +17,7 @@ a:hover {
 }
 
 strong {
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .wrap {
@@ -27,27 +27,32 @@ strong {
 h1 {
 	margin: 0;
 	font-weight: 400;
-	font-size: 5rem;
+	font-size: 4rem;
 	line-height: 1em;
 }
 h2 {
 	margin: 0;
-	font-weight: 400;
-	font-size: 1.25rem;
+	font-weight: 200;
+	font-size: 1.5rem;
 	color: #00C2FF;
 }
 p {
 	margin: 1.5rem auto;
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	font-weight: 200;
 	line-height: 1.5;
 }
 small {
 	font-size: 1.25rem;
+	font-weight: 200;
 }
 
 .text-space {
 	margin-top: 6.25rem;
+
+
+
+
 }
 
 .links {
@@ -57,10 +62,11 @@ small {
 .links a {
 	display: block;
 	width: 2.75rem;
-	margin-right: 1.5rem;
+	margin-right: 0.7rem;
 }
 .links a svg path {
 	transition: fill .5s ease;
+	fill: #FFF;
 }
 .links a:hover svg path {
 	fill: #00C2FF;
@@ -103,7 +109,7 @@ small {
 
 @media(min-width: 1000px) {
 	.wrap {
-		max-width: 70%;
+		max-width: 50%;
 	}
 }
 

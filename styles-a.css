@@ -94,6 +94,11 @@ small {
 	}
 	h1 {
 		font-size: 3.0rem;
+	}
+
+	h2 {
+		margin-top: .5rem;
+		font-size: .85rem;
 	
 	}
 	p {
